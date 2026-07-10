@@ -39,7 +39,7 @@ export const projects = [
     longDescription:
       'C# ve WPF kullanarak geliştirdiğim masaüstü bir yapılacaklar listesi uygulaması. Görev ekleme, tamamlama ve silme gibi temel işlevlerin yanı sıra WPF ile masaüstü arayüz tasarımı üzerine pratik yapma amacı taşıyor.',
     tags: ['C#', 'WPF', '.NET Framework'],
-    image: '/images/projects/Todo.png',
+    image: `${import.meta.env.BASE_URL}images/projects/Todo.png`,
     // demoUrl: '',
     codeUrl: 'https://github.com/azrairemd/TodoApp-WPF',
     // videoUrl: '',
@@ -51,7 +51,7 @@ export const projects = [
     longDescription:
       'Kripto para piyasasındaki fiyat hareketlerini gerçek zamanlı olarak takip etmeyi sağlayan bir uygulama. Güncel piyasa verilerini çekip kullanıcıya anlaşılır bir arayüzde sunuyor.',
     tags: ['Python'],
-    image: '/images/projects/finans-takip.png',
+    image: `${import.meta.env.BASE_URL}images/projects/finans-takip.png`,
     // demoUrl: '',
     codeUrl: 'https://github.com/azrairemd/finans-takip',
     // videoUrl: '',
@@ -88,19 +88,19 @@ export const certificates = [
    title: 'Veri Bilimi için Python ve TensorFlow”',
    issuer: 'BTK Akademi',
    date: '2025',
-   image: '/images/certificates/veri-bilimi-icin-python.png',
+   image: `${import.meta.env.BASE_URL}images/certificates/veri-bilimi-icin-python.png`,
   },
     {
    title: 'Makine Öğrenmesi”',
    issuer: 'BTK Akademi',
    date: '2025',
-   image: '/images/certificates/makine-ogrenmesi.png',
+   image: `${import.meta.env.BASE_URL}images/certificates/makine-ogrenmesi.png`,
   },
     {
    title: 'Yeni Başlayanlar için Python Programlama”',
    issuer: 'BTK Akademi',
    date: '2025',
-   image: '/images/certificates/yeni-baslayanlar-icin-python.png',
+   image: `${import.meta.env.BASE_URL}images/certificates/yeni-baslayanlar-icin-python.png`,
   },
 ]
 
@@ -118,4 +118,3 @@ export const timeline = [
     description: 'Yazılım Mühendisliği lisans eğitimime devam ediyorum.',
   },
 ]
- 
